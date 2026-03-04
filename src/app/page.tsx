@@ -89,11 +89,11 @@ export default function LandingPage() {
               buttonHref: "#product"
             },
             {
-              title: "Posizionata nella parte inferiore",              description: "Facile da raggiungere, naturale da usare in qualsiasi momento",              imageSrc: "http://img.b2bpic.net/free-photo/men-s-green-jacket-mockup-with-black-tee-african-american-model_53876-105358.jpg",              imageAlt: "Posizionamento della microfibra sulla maglietta",              buttonIcon: CheckCircle,
+              title: "Posizionata nella parte inferiore",              description: "Facile da raggiungere, naturale da usare in qualsiasi momento",              imageSrc: "http://img.b2bpic.net/free-photo/men-s-green-jacket-mockup-with-black-tee-african-american-model_53876-105358.jpg?_wi=1",              imageAlt: "Posizionamento della microfibra sulla maglietta",              buttonIcon: CheckCircle,
               buttonHref: "#product"
             },
             {
-              title: "Invisibile all'esterno",              description: "Il design rimane puro e minimalista. Nessuno sa del suo segreto.",              imageSrc: "http://img.b2bpic.net/free-photo/portrait-beautiful-blond-model-dressed-summer-hipster-clothes_158538-5485.jpg",              imageAlt: "Maglietta da esterno senza visibili aggiunte",              buttonIcon: CheckCircle,
+              title: "Invisibile all'esterno",              description: "Il design rimane puro e minimalista. Nessuno sa del suo segreto.",              imageSrc: "http://img.b2bpic.net/free-photo/portrait-beautiful-blond-model-dressed-summer-hipster-clothes_158538-5485.jpg?_wi=1",              imageAlt: "Maglietta da esterno senza visibili aggiunte",              buttonIcon: CheckCircle,
               buttonHref: "#product"
             },
             {
@@ -122,11 +122,11 @@ export default function LandingPage() {
           products={[
             {
               id: "velum-black",              brand: "VELUM",              name: "VELUM VISIONE™ Nero",              price: "€189,00",              rating: 5,
-              reviewCount: "127",              imageSrc: "http://img.b2bpic.net/free-photo/men-s-green-jacket-mockup-with-black-tee-african-american-model_53876-105358.jpg",              imageAlt: "VELUM VISIONE™ T-shirt Nero"
+              reviewCount: "127",              imageSrc: "http://img.b2bpic.net/free-photo/men-s-green-jacket-mockup-with-black-tee-african-american-model_53876-105358.jpg?_wi=2",              imageAlt: "VELUM VISIONE™ T-shirt Nero"
             },
             {
               id: "velum-white",              brand: "VELUM",              name: "VELUM VISIONE™ Bianco Panna",              price: "€189,00",              rating: 5,
-              reviewCount: "89",              imageSrc: "http://img.b2bpic.net/free-photo/portrait-beautiful-blond-model-dressed-summer-hipster-clothes_158538-5485.jpg",              imageAlt: "VELUM VISIONE™ T-shirt Bianco Panna"
+              reviewCount: "89",              imageSrc: "http://img.b2bpic.net/free-photo/portrait-beautiful-blond-model-dressed-summer-hipster-clothes_158538-5485.jpg?_wi=2",              imageAlt: "VELUM VISIONE™ T-shirt Bianco Panna"
             },
             {
               id: "velum-beige",              brand: "VELUM",              name: "VELUM VISIONE™ Beige Sabbia",              price: "€189,00",              rating: 5,
