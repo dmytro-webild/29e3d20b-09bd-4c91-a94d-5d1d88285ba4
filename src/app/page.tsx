@@ -48,7 +48,7 @@ export default function LandingPage() {
           ]}
           buttonAnimation="slide-up"
           background={{ variant: "plain" }}
-          imageSrc="http://img.b2bpic.net/free-photo/young-beautiful-woman-business-suit_1303-17722.jpg"
+          imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AUvWyP48D343N0Me5yDO3BrzPM/uploaded-1772662037716-fnko4l37.png"
           imageAlt="Modello elegante che usa discretamente la maglietta per pulire occhiali"
           mediaAnimation="blur-reveal"
           frameStyle="card"
@@ -120,15 +120,15 @@ export default function LandingPage() {
           description="T-shirt in cotone premium con inserto interno in microfibra tecnica. Vestibilità elegante, rifiniture sartoriali, design essenziale."
           products={[
             {
-              id: "velum-black",              brand: "VELUM",              name: "VELUM VISIONE™ Nero",              price: "€189,00",              rating: 5,
+              id: "velum-black",              brand: "VELUM",              name: "VELUM VISIONE™ Nero",              price: "€30,00",              rating: 5,
               reviewCount: "127",              imageSrc: "http://img.b2bpic.net/free-photo/men-s-green-jacket-mockup-with-black-tee-african-american-model_53876-105358.jpg?_wi=2",              imageAlt: "VELUM VISIONE™ T-shirt Nero"
             },
             {
-              id: "velum-white",              brand: "VELUM",              name: "VELUM VISIONE™ Bianco Panna",              price: "€189,00",              rating: 5,
+              id: "velum-white",              brand: "VELUM",              name: "VELUM VISIONE™ Bianco Panna",              price: "€30,00",              rating: 5,
               reviewCount: "89",              imageSrc: "http://img.b2bpic.net/free-photo/portrait-beautiful-blond-model-dressed-summer-hipster-clothes_158538-5485.jpg?_wi=2",              imageAlt: "VELUM VISIONE™ T-shirt Bianco Panna"
             },
             {
-              id: "velum-beige",              brand: "VELUM",              name: "VELUM VISIONE™ Beige Sabbia",              price: "€189,00",              rating: 5,
+              id: "velum-beige",              brand: "VELUM",              name: "VELUM VISIONE™ Beige Sabbia",              price: "€30,00",              rating: 5,
               reviewCount: "156",              imageSrc: "http://img.b2bpic.net/free-photo/young-handsome-man-posing-quarry_1303-28636.jpg",              imageAlt: "VELUM VISIONE™ T-shirt Beige Sabbia"
             }
           ]}
@@ -181,7 +181,7 @@ export default function LandingPage() {
         <TextSplitAbout
           title="Il lusso è nei dettagli."
           description={[
-            "VELUM nasce per chi vede oltre. Per chi comprende che la vera innovazione non grida, sussurra.",            "Una maglietta che è allo stesso tempo elegante, funzionale e consapevole. Un capolavoro invisibile della moda italiana.",            "Vestire VELUM significa portare con sé una filosofia: il lusso discreto, l'innovazione nascosta, la cura infinita."
+            "VELUM nasce per chi vede oltre. ",            "Una maglietta che è allo stesso tempo elegante, funzionale e consapevole. ",            "Vestire VELUM significa portare con sé una filosofia: il lusso discreto, l'innovazione nascosta, la cura infinita."
           ]}
           showBorder={false}
           useInvertedBackground={false}
