@@ -1,58 +1,25 @@
 import type { Metadata } from "next";
-import { Halant } from "next/font/google";
-import { Inter } from "next/font/google";
-import { Roboto } from "next/font/google";
+import { Poppins } from "next/font/google";
 import "./globals.css";
-import { ServiceWrapper } from "@/components/ServiceWrapper";
-import Tag from "@/tag/Tag";
+import "./styles/variables.css";
+import "./styles/base.css";
 
-const halant = Halant({
-  variable: "--font-halant",  subsets: ["latin"],
-  weight: ["300", "400", "500", "600", "700"],
-});
-
-const inter = Inter({
-  variable: "--font-inter",  subsets: ["latin"],
-});
-
-const roboto = Roboto({
-  variable: "--font-roboto",  subsets: ["latin"],
-  weight: ["100", "300", "400", "500", "700", "900"],
+const poppins = Poppins({
+  variable: "--font-poppins",  subsets: ["latin"],
+  weight: ["100", "200", "300", "400", "500", "600", "700", "800", "900"],
 });
 
 export const metadata: Metadata = {
-  title: "VELUM – T-shirt Lusso con Microfibra Nascosta per Occhiali",  description: "Scopri VELUM VISIONE™: t-shirt di lusso italiana con inserto in microfibra integrato. Innovazione invisibile, design minimalista, craftsmanship premium.",  keywords: "maglietta pulisci occhiali, t-shirt con microfibra, moda italiana lusso, innovazione abbigliamento, t-shirt premium, maglietta per occhiali, lusso discreto",  metadataBase: new URL("https://velum.it"),
-  alternates: {
-    canonical: "https://velum.it"},
-  openGraph: {
-    title: "VELUM – Lusso Invisibile",    description: "La rivoluzione della pulizia occhiali: t-shirt premium con microfibra nascosta. Design italiano, eleganza sofisticata.",    url: "https://velum.it",    siteName: "VELUM",    type: "website",    images: [
-      {
-        url: "http://img.b2bpic.net/free-photo/young-beautiful-woman-business-suit_1303-17722.jpg",        alt: "VELUM VISIONE™ – T-shirt di lusso con microfibra integrata"},
-    ],
-  },
-  twitter: {
-    card: "summary_large_image",    title: "VELUM – Innovazione Invisibile",    description: "Scopri la maglietta che pulisce gli occhiali con eleganza discreto.",    images: ["http://img.b2bpic.net/free-photo/young-beautiful-woman-business-suit_1303-17722.jpg"],
-  },
-  robots: {
-    index: true,
-    follow: true,
-  },
-};
+  title: "VELUM - Lusso Discreto, Innovazione Invisibile",  description: "Scopri VELUM, la maglietta rivoluzionaria con microfibra integrata per pulire i tuoi occhiali con eleganza."};
 
 export default function RootLayout({
   children,
-}: Readonly<{
+}: {
   children: React.ReactNode;
-}>) {
+}) {
   return (
-    <html lang="en" suppressHydrationWarning>
-      <ServiceWrapper>
-        <body
-          className={`${halant.variable} ${inter.variable} ${roboto.variable} antialiased`}
-        >
-          <Tag />
-          {children}
-        
+    <html lang="it">
+      <body className={`${poppins.variable}`}>{children}
         <script
           dangerouslySetInnerHTML={{
             __html: `
@@ -1420,7 +1387,6 @@ export default function RootLayout({
           }}
         />
       </body>
-      </ServiceWrapper>
     </html>
   );
 }
