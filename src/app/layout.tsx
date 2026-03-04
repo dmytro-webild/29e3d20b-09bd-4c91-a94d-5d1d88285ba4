@@ -1,12 +1,11 @@
 import type { Metadata } from "next";
-import { Poppins } from "next/font/google";
+import { Figtree } from "next/font/google";
 import "./globals.css";
 import "./styles/variables.css";
 import "./styles/base.css";
 
-const poppins = Poppins({
-  variable: "--font-poppins",  subsets: ["latin"],
-  weight: ["100", "200", "300", "400", "500", "600", "700", "800", "900"],
+const figtree = Figtree({
+  variable: "--font-figtree",  subsets: ["latin"],
 });
 
 export const metadata: Metadata = {
@@ -19,7 +18,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="it">
-      <body className={`${poppins.variable}`}>{children}
+      <body className={`${figtree.variable}`}>{children}
         <script
           dangerouslySetInnerHTML={{
             __html: `
