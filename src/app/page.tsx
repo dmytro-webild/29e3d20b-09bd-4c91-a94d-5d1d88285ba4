@@ -199,16 +199,20 @@ export default function LandingPage() {
           description="Chi ha scelto VELUM racconta la differenza che ha fatto nella loro vita quotidiana."
           testimonials={[
             {
-              id: "1",              name: "Giulia Rossi",              role: "Architetto",              company: "Studio Milanese",              rating: 5,              imageSrc: "http://img.b2bpic.net/free-photo/fashion-portrait-young-elegant-woman_1328-4107.jpg",              imageAlt: "Giulia Rossi"
+              id: "1",              name: "Giulia Rossi",              role: "Architetto",              company: "Studio Milanese",              rating: 5,
+              imageSrc: "http://img.b2bpic.net/free-photo/fashion-portrait-young-elegant-woman_1328-4107.jpg",              imageAlt: "Giulia Rossi"
             },
             {
-              id: "2",              name: "Marco Colombo",              role: "Designer",              company: "Brand Italia",              rating: 5,              imageSrc: "http://img.b2bpic.net/free-photo/handsome-groom-classy-black-suit-stands-dark-room_8353-7083.jpg",              imageAlt: "Marco Colombo"
+              id: "2",              name: "Marco Colombo",              role: "Designer",              company: "Brand Italia",              rating: 5,
+              imageSrc: "http://img.b2bpic.net/free-photo/handsome-groom-classy-black-suit-stands-dark-room_8353-7083.jpg",              imageAlt: "Marco Colombo"
             },
             {
-              id: "3",              name: "Francesca Moretti",              role: "Avvocato",              company: "Legale Milano",              rating: 5,              imageSrc: "http://img.b2bpic.net/free-photo/young-attractive-stylish-businesswoman-suit-intently-looking-camera-city-street_574295-784.jpg",              imageAlt: "Francesca Moretti"
+              id: "3",              name: "Francesca Moretti",              role: "Avvocato",              company: "Legale Milano",              rating: 5,
+              imageSrc: "http://img.b2bpic.net/free-photo/young-attractive-stylish-businesswoman-suit-intently-looking-camera-city-street_574295-784.jpg",              imageAlt: "Francesca Moretti"
             },
             {
-              id: "4",              name: "Luca Ferretti",              role: "Imprenditore",              company: "Tech Veneto",              rating: 5,              imageSrc: "http://img.b2bpic.net/free-photo/studio-portrait-serious-bearded-male-dressed-suit_613910-14795.jpg",              imageAlt: "Luca Ferretti"
+              id: "4",              name: "Luca Ferretti",              role: "Imprenditore",              company: "Tech Veneto",              rating: 5,
+              imageSrc: "http://img.b2bpic.net/free-photo/studio-portrait-serious-bearded-male-dressed-suit_613910-14795.jpg",              imageAlt: "Luca Ferretti"
             }
           ]}
           kpiItems={[
